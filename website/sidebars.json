@@ -1,8 +1,16 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    " ":["contributors/contributors"],
+    "Q&A":["questions-answers/questions-answers",
+      "questions-answers/qa1",
+      "questions-answers/qa2",
+      "questions-answers/qa3",
+      "questions-answers/qa4"],
+      "Search + search result":["search-plus-search-result/search-plus-search-result"],
+      "Sub project":["sub-project/sub-project"],
+      "Team":["team/team"],
+      "Testimonials":["testimonials/testimonials"],
+      "Work":["work/work"]
   }
-  
+
 }
