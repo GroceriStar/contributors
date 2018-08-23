@@ -195,7 +195,61 @@ const Showcase = props => {
     </div>
   );
 };
+const TableOfContents = props => (
+  <div
+    className="productShowcaseSection paddingBottom"
+    style={{textAlign: 'center'}}>
+    <h2>Table of contents</h2>
+        <div className = "tableofcontents">
 
+          <ul>
+  <li><a href="/contributors/docs/questions-answers/questions-answers.html">Q&amp;A</a>
+  <ul>
+  <li><a href="/contributors/docs/questions-answers/qa1.html">Q&amp;A [What we’re doing here] [part 1]</a></li>
+  <li><a href="/contributors/docs/questions-answers/qa2.html">Q&amp;A[what we’re doing here][part 2]</a></li>
+  <li><a href="/contributors/docs/questions-answers/qa3.html">Tech stack that we’re using at Groceristar</a></li>
+  <li><a href="/contributors/docs/questions-answers/qa4.html">Q&amp;A[common questions, that I asked frequently][part3]</a></li>
+  </ul></li>
+  <li><a href="/contributors/docs/search-plus-search-result/search-plus-search-result.html">Search + Search result</a></li>
+  <li><a href="/contributors/docs/sub-project/sub-project.html">Sub project</a>
+  <ul>
+  <li><a href="/contributors/docs/sub-project/technology/technology.html">Technology</a>
+  <ul>
+  <li><a href="/contributors/docs/sub-project/technology/react/react.html">React</a>
+  <ul>
+  <li><a href="/contributors/docs/sub-project/technology/react/recipe-app.html">recipe app</a></li>
+  <li><a href="/contributors/docs/sub-project/technology/react/frontend-pages.html">frontend pages</a></li>
+  <li><a href="/contributors/docs/sub-project/technology/react/landing-pages.html">landing pages</a></li>
+  <li><a href="/contributors/docs/sub-project/technology/react/shopping-list.html">shopping list</a></li>
+  <li><a href="/contributors/docs/sub-project/technology/react/meal-calendar.html">meal calendar</a></li>
+  <li><a href="/contributors/docs/sub-project/technology/react/recipe-components.html">recipe components</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="/contributors/docs/sub-project/type/type.html">Type</a>
+  <ul>
+  <li><a href="/contributors/docs/sub-project/type/backend/backend.html">Backend</a>
+  <ul>
+  <li><a href="/contributors/docs/sub-project/type/backend/recipe-api-server.html">recipe api server</a></li>
+  <li><a href="/contributors/docs/sub-project/type/backend/recipe-search-api-server.html">recipe search api server</a></li>
+  <li><a href="/contributors/docs/sub-project/type/backend/groceristar-api.html">groceristar api</a></li>
+  <li><a href="/contributors/docs/sub-project/type/backend/graphql-instances.html">graphql instances</a></li>
+  </ul></li>
+  <li><a href="/contributors/docs/sub-project/type/js-only/js-only.html">Js-only</a>
+  <ul>
+  <li><a href="/contributors/docs/sub-project/type/js-only/types.html">types</a></li>
+  <li><a href="/contributors/docs/sub-project/type/js-only/groceristar-fetch-plugin.html">groceristar-fetch plugin</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="/contributors/docs/team/team.html">Team</a></li>
+  <li><a href="/contributors/docs/testimonials/testimonials.html">Testimonials</a></li>
+  <li><a href="/contributors/docs/work/work.html">Work</a></li>
+  </ul>
+      </div>
+
+
+  </div>
+);
 class Index extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -204,6 +258,7 @@ class Index extends React.Component {
       <div>
         {/* <HomeSplash language={language} /> */}
         <div className="mainContainer">
+          <TableOfContents />
           {/* <Features />
           <FeatureCallout />
           <LearnHow />
