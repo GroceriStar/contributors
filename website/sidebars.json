@@ -7,7 +7,28 @@
       "questions-answers/qa3",
       "questions-answers/qa4"],
       "Search + search result":["search-plus-search-result/search-plus-search-result"],
-      "Sub project":["sub-project/sub-project"],
+      "Sub project":[
+        "sub-project/sub-project",
+          "sub-project/type/type",
+
+            "sub-project/type/backend/backend",
+              "sub-project/type/backend/recipe-api-server",
+              "sub-project/type/backend/recipe-search-api-server",
+              "sub-project/type/backend/groceristar-api",
+              "sub-project/type/backend/graphql-instances",
+
+            "sub-project/type/js-only/js-only",
+              "sub-project/type/js-only/types",
+              "sub-project/type/js-only/groceristar-fetch-plugin",
+          "sub-project/technology/technology",
+            "sub-project/technology/react/react",
+              "sub-project/technology/react/recipe-app",
+              "sub-project/technology/react/frontend-pages",
+              "sub-project/technology/react/landing-pages",
+              "sub-project/technology/react/shopping-list",
+              "sub-project/technology/react/meal-calendar",
+              "sub-project/technology/react/recipe-components"
+      ],
       "Team":["team/team"],
       "Testimonials":["testimonials/testimonials"],
       "Work":["work/work"]
